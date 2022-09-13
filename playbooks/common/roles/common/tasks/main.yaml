@@ -36,7 +36,9 @@
     regexp: ".*{{ item }}$"
     line: "{{ hostvars[item].private_ip }} {{ item }}"
     state: present
-  when: "hostvars[item].private_ip is defined"
+  when:
+    - hostvars[item].private_ip is defined
+    - use_public_network is not defined or use_public_network == False
   with_items: "{{ groups['satellite6'] + groups['capsules'] }}"
 
 - name: "Build hosts file (using public network IPs)"
@@ -47,7 +49,7 @@
     state: present
   when:
     - hostvars[item].public_ip is defined
-    - hostvars[item].private_ip is not defined
+    - use_public_network is defined and use_public_network == True
   with_items: "{{ groups['satellite6'] + groups['capsules'] }}"
 
 - name: "File /etc/hosts have correct SELinux context (had issues before)"
