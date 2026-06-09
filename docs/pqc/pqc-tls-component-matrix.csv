@@ -1,0 +1,77 @@
+row_id,jira_key,component,status,pqc_kex_test,mldsa_cert_test,code_change_required,feature_epic,satperf_probe,notes
+M-38971,SAT-38971,Activation Keys,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38972,SAT-38972,Fact,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38973,SAT-38973,Host Group,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38974,SAT-38974,Insights - Advisor,New,pending,pending,TBD,SAT-43401,,Verification row; see sat-38970-restructure-proposal.md
+M-38975,SAT-38975,RH Cloud,New,pending,pending,TBD,SAT-43401,,Verification row; see sat-38970-restructure-proposal.md
+M-38976,SAT-38976,Subscription Management,New,pending,pending,TBD,SAT-43394,,Verification row; see sat-38970-restructure-proposal.md
+M-38977,SAT-38977,Candlepin,New,pending,pending,TBD,SAT-38910,,Verification row; see sat-38970-restructure-proposal.md
+M-38978,SAT-38978,Host Collections,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38979,SAT-38979,Hosts,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38980,SAT-38980,Insights - Vulnerability,New,pending,pending,TBD,SAT-43401,,Verification row; see sat-38970-restructure-proposal.md
+M-38981,SAT-38981,Registration,New,pending,pending,TBD,SAT-43394,,Verification row; see sat-38970-restructure-proposal.md
+M-38982,SAT-38982,Virt-who Configure Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38983,SAT-38983,Alternate Content Sources,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38984,SAT-38984,Container Image Management,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38985,SAT-38985,Content Views,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38986,SAT-38986,Image Mode,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38987,SAT-38987,Lifecycle Environments,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38988,SAT-38988,Repositories,New,pending,pending,TBD,SAT-36256,,Verification row; see sat-38970-restructure-proposal.md
+M-38989,SAT-38989,Capsule - Content,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38990,SAT-38990,Content Credentials,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38991,SAT-38991,Errata Management,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38992,SAT-38992,Inter Satellite Sync,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38993,SAT-38993,Pulp,New,pending,pending,TBD,SAT-36256,,Verification row; see sat-38970-restructure-proposal.md
+M-38994,SAT-38994,Sync Plans,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38995,SAT-38995,API,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38996,SAT-38996,Ansible - Remote Execution,New,pending,pending,TBD,SAT-43331,,Verification row; see sat-38970-restructure-proposal.md
+M-38997,SAT-38997,Authentication,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38998,SAT-38998,Dashboard,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-38999,SAT-38999,HTTP Proxy,New,pending,pending,TBD,SAT-43394,,Verification row; see sat-38970-restructure-proposal.md
+M-39000,SAT-39000,Leapp integration,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39001,SAT-39001,Logging,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39002,SAT-39002,Notifications,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39003,SAT-39003,Parameters,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39004,SAT-39004,Remote Execution,Closed,pending,pending,TBD,SAT-43331,,Verification row; see sat-38970-restructure-proposal.md
+M-39005,SAT-39005,SCAP Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39006,SAT-39006,Settings,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39007,SAT-39007,Templates Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39008,SAT-39008,katello-tracer,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39009,SAT-39009,Ansible - Configuration Management,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39010,SAT-39010,Audit Log,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39011,SAT-39011,Branding,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39012,SAT-39012,Foreman Proxy,New,pending,pending,TBD,SAT-38907,,Verification row; see sat-38970-restructure-proposal.md
+M-39013,SAT-39013,Hooks and Webhooks,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39014,SAT-39014,Localization and Internationalization,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39015,SAT-39015,Navigation,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39016,SAT-39016,Organizations and Locations,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39017,SAT-39017,Puppet,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39018,SAT-39018,Reporting,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39019,SAT-39019,Search,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39020,SAT-39020,Tasks Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39021,SAT-39021,Users and Roles,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39022,SAT-39022,Ansible Collection,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39023,SAT-39023,Bootdisk Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39024,SAT-39024,Compute Resources - Azure,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39025,SAT-39025,Compute Resources - EC2,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39026,SAT-39026,Compute Resources - OpenStack,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39027,SAT-39027,Compute Resources - VMWare,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39028,SAT-39028,Conversions appliance,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39029,SAT-39029,Discovery Plugin,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39030,SAT-39030,Infoblox integration,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39031,SAT-39031,Networking,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39032,SAT-39032,Provisioning,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39033,SAT-39033,Satellite Clone,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39034,SAT-39034,Upgrades,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39035,SAT-39035,Backup and Restore,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39036,SAT-39036,Compute Resources,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39037,SAT-39037,Compute Resources - CNV,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39038,SAT-39038,Compute Resources - GCE,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39039,SAT-39039,Compute Resources - RHEV,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39040,SAT-39040,Compute Resources - libvirt,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39041,SAT-39041,Discovery Image,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39042,SAT-39042,Hammer,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39043,SAT-39043,Installation,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39044,SAT-39044,Power and BMC,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39045,SAT-39045,Provisioning Templates,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md
+M-39046,SAT-39046,Satellite Maintain,New,pending,pending,TBD,SAT-36257,,Verification row; see sat-38970-restructure-proposal.md

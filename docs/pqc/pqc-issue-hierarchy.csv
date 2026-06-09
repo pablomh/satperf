@@ -1,0 +1,140 @@
+root,key,parent,summary,status,itype,assignee,perf_relevance
+PSASTRAT-109,PSASTRAT-109,,2026 - Red Hat Satellite,Planning,Outcome,Eric Helms,medium
+SAT-35690,SAT-35690,PSASTRAT-109,Support Post-Quantum Cryptography (PQC),To Do,Outcome,Eric Helms,high
+CANDLEPIN-1021,CANDLEPIN-1021,PSASTRAT-109,Support Post-Quantum Cryptography certificates,Closed,Epic,,high
+CANDLEPIN-1021,CANDLEPIN-1022,CANDLEPIN-1021,Test Candlepin/subscription-manager for PQC,Closed,Spike,,high
+CANDLEPIN-1021,CANDLEPIN-1068,CANDLEPIN-1021,Create/Refactor org.candlepin.pki.Signer for PQC support,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1069,CANDLEPIN-1021,Create/Refactor org.candlepin.pki.SignatureValidator for PQC support,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1071,CANDLEPIN-1021,Create/Refactor org.candlepin.pki.X509CertificateBuilder for PQC support,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1072,CANDLEPIN-1021,Create/Refactor org.candlepin.pki.CertificateAuthority for PQC support,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1073,CANDLEPIN-1021,Update KeyPairData to include algorithm information,Closed,Story,Stepan Bakaj,high
+CANDLEPIN-1021,CANDLEPIN-1074,CANDLEPIN-1021,Update Candlepin configuration to support PQC/multi-CA chains,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1076,CANDLEPIN-1021,PQC: Update ueber certificate generation and fetching logic to be scheme-aware,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1077,CANDLEPIN-1021,PQC: Update status endpoint to list server-supported signature schemes,Closed,Story,Stepan Bakaj,high
+CANDLEPIN-1021,CANDLEPIN-1078,CANDLEPIN-1021,PQC: Update consumer operations to perform signature scheme validation and reconcilation,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1079,CANDLEPIN-1021,PQC: Update manifest export signature creation,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1080,CANDLEPIN-1021,PQC: Update manifest import signature validation logic,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1081,CANDLEPIN-1021,PQC: Design: Update PQC design to account for changes to scheme negotiation and selection,Closed,Spike,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1128,CANDLEPIN-1021,Add ML-DSA cert chain config for dev setup ,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1130,CANDLEPIN-1021,Refactor the PrivateKeyReader interface and implementations,Closed,Spike,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1133,CANDLEPIN-1021,Verify tomcat 9.0.110+ works with dual certs (MLDSA+RSA),Closed,Spike,Nikolaos Moumoulidis,high
+CANDLEPIN-1021,CANDLEPIN-1134,CANDLEPIN-1021,Refactor KeyPairGenerator to be scheme aware and generic,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1135,CANDLEPIN-1021,Update token-based auth to be scheme aware or scheme-agnostic,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1141,CANDLEPIN-1021,Address cert desync when consumer keys are regenerated,Closed,Story,,high
+CANDLEPIN-1021,CANDLEPIN-1150,CANDLEPIN-1021,Rebase PQC branch & merge to main,Closed,Task,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1152,CANDLEPIN-1021,"Update dev setup to tomcat-native, Java25, APR-listener with RSA/ML-DSA certs",Closed,Task,Nikolaos Moumoulidis,high
+CANDLEPIN-1021,CANDLEPIN-1153,CANDLEPIN-1021,Update key/cert gen for IdentityCertificateGenerator to be scheme-aware,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1154,CANDLEPIN-1021,Update key/cert gen for SCACertificateGenerator to be scheme-aware,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1155,CANDLEPIN-1021,Update key/cert gen for EntitlementCertificateGenerator to be scheme-aware,Closed,Story,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1156,CANDLEPIN-1021,Update key/cert gen for UeberCertificateGenerator to be scheme-aware,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1165,CANDLEPIN-1021,Remove config duplication with Spec Test Github actions workflow [PQC],Closed,Task,Stepan Bakaj,high
+CANDLEPIN-1021,CANDLEPIN-1169,CANDLEPIN-1021,Add ML-DSA support feature flag for non-manifest consumers,Closed,Story,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1170,CANDLEPIN-1021,Add multi-scheme spec tests for Identity and SCA certificates,Closed,Task,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1173,CANDLEPIN-1021,Move signature.json (except for the raw signature) into consumer_export.zip,Closed,Bug,Josh Albrecht,high
+CANDLEPIN-1021,CANDLEPIN-1179,CANDLEPIN-1021,Fix bug in certificate builder which allows for negative certificate serials,Closed,Spike,Chris Rog,high
+CANDLEPIN-1021,CANDLEPIN-1180,CANDLEPIN-1021,Fix bug in SignatureValidator when validating signatures against certificates with wrong key type,Closed,Spike,Chris Rog,high
+CANDLEPIN-1021,CHAINSAW-531,CANDLEPIN-1021,Figure out PQC roadmap for Candlepin,Closed,Spike,Nikolaos Moumoulidis,high
+CANDLEPIN-1021,CHAINSAW-548,CANDLEPIN-1021,Design: Candlepin PQC certificates,Closed,Spike,Chris Rog,high
+CANDLEPIN-1021,CHAINSAW-805,CANDLEPIN-1021,Investigate ID/SCA cert dependencies,Closed,Spike,Stepan Bakaj,high
+SAT-35690,SAT-30857,SAT-35690,[SPIKE] How does a customer update the default CA across their infrastructure?,New,Spike,,low
+SAT-35690,SAT-35690,SAT-35690,Support Post-Quantum Cryptography (PQC),To Do,Outcome,Eric Helms,medium
+SAT-35690,SAT-35691,SAT-36257,Generate self-signed PQC certificates,New,Epic,Ewoud Kohl van Wijngaarden,high
+SAT-35690,SAT-36255,SAT-35690,Support Post-Quantum Cryptography,Closed,Feature,Lukas Hellebrandt,medium
+SAT-35690,SAT-36256,SAT-35690,Sync and distribute ML-DSA signed RPM packages and repositories,Refinement,Feature,Partha Aji,high
+SAT-35690,SAT-36257,SAT-35690,Satellite and Capsule infrastructure operates with TLS 1.3 and PQC,Refinement,Feature,Partha Aji,high
+SAT-35690,SAT-38079,SAT-35690,High-level Satellite PQC kickoff,Closed,Sub-task,Lukas Hellebrandt,low
+SAT-35690,SAT-38421,SAT-35690,Document Satellite 6.18 PQC (in)compatibility,Closed,Story,Aneta Steflova Petrova,low
+SAT-35690,SAT-38907,SAT-36257,Smart-proxy/Foreman-proxy PQC support,New,Epic,Ewoud Kohl van Wijngaarden,medium
+SAT-35690,SAT-38909,SAT-43401,Manifest import with PQC,New,Epic,Partha Aji,high
+SAT-35690,SAT-38910,SAT-36257,Foreman to Candlepin communication with PQC,New,Epic,Partha Aji,high
+SAT-35690,SAT-38911,SAT-35690,Support PQC KEX in SSH and other non-TLS encrypted connections,Closed,Epic,,high
+SAT-35690,SAT-38912,SAT-43401,CDN content sync with PQC,New,Epic,Partha Aji,high
+SAT-35690,SAT-38913,SAT-36257,Container-based services respect/set crypto-policies,New,Epic,Ewoud Kohl van Wijngaarden,medium
+SAT-35690,SAT-38914,SAT-43331,SSH connections with PQC support,New,Epic,Ewoud Kohl van Wijngaarden,high
+SAT-35690,SAT-38970,SAT-35690,[SPIKE] Investigate what needs to be done for PQC KEX in Sat<->Host TLS,New,Spike,Lukas Hellebrandt,high
+SAT-35690,SAT-38971,SAT-38970,PQC KEX TLS: Activation Keys,New,Sub-task,,high
+SAT-35690,SAT-38972,SAT-38970,PQC KEX TLS: Fact,New,Sub-task,,high
+SAT-35690,SAT-38973,SAT-38970,PQC KEX TLS: Host Group,New,Sub-task,,high
+SAT-35690,SAT-38974,SAT-38970,PQC KEX TLS: Insights - Advisor,New,Sub-task,,high
+SAT-35690,SAT-38975,SAT-38970,PQC KEX TLS: RH Cloud,New,Sub-task,,high
+SAT-35690,SAT-38976,SAT-38970,PQC KEX TLS: Subscription Management,New,Sub-task,,high
+SAT-35690,SAT-38977,SAT-38970,PQC KEX TLS: Candlepin,New,Sub-task,,high
+SAT-35690,SAT-38978,SAT-38970,PQC KEX TLS: Host Collections,New,Sub-task,,high
+SAT-35690,SAT-38979,SAT-38970,PQC KEX TLS: Hosts,New,Sub-task,,high
+SAT-35690,SAT-38980,SAT-38970,PQC KEX TLS: Insights - Vulnerability,New,Sub-task,,high
+SAT-35690,SAT-38981,SAT-38970,PQC KEX TLS: Registration,New,Sub-task,,high
+SAT-35690,SAT-38982,SAT-38970,PQC KEX TLS: Virt-who Configure Plugin,New,Sub-task,,high
+SAT-35690,SAT-38983,SAT-38970,PQC KEX TLS: Alternate Content Sources,New,Sub-task,,high
+SAT-35690,SAT-38984,SAT-38970,PQC KEX TLS: Container Image Management,New,Sub-task,,high
+SAT-35690,SAT-38985,SAT-38970,PQC KEX TLS: Content Views,New,Sub-task,,high
+SAT-35690,SAT-38986,SAT-38970,PQC KEX TLS: Image Mode,New,Sub-task,,high
+SAT-35690,SAT-38987,SAT-38970,PQC KEX TLS: Lifecycle Environments,New,Sub-task,,high
+SAT-35690,SAT-38988,SAT-38970,PQC KEX TLS: Repositories,New,Sub-task,,high
+SAT-35690,SAT-38989,SAT-38970,PQC KEX TLS: Capsule - Content,New,Sub-task,,high
+SAT-35690,SAT-38990,SAT-38970,PQC KEX TLS: Content Credentials,New,Sub-task,,high
+SAT-35690,SAT-38991,SAT-38970,PQC KEX TLS: Errata Management,New,Sub-task,,high
+SAT-35690,SAT-38992,SAT-38970,PQC KEX TLS: Inter Satellite Sync,New,Sub-task,,high
+SAT-35690,SAT-38993,SAT-38970,PQC KEX TLS: Pulp,New,Sub-task,,high
+SAT-35690,SAT-38994,SAT-38970,PQC KEX TLS: Sync Plans,New,Sub-task,,high
+SAT-35690,SAT-38995,SAT-38970,PQC KEX TLS: API,New,Sub-task,,high
+SAT-35690,SAT-38996,SAT-38970,PQC KEX TLS: Ansible - Remote Execution,New,Sub-task,,high
+SAT-35690,SAT-38997,SAT-38970,PQC KEX TLS: Authentication,New,Sub-task,,high
+SAT-35690,SAT-38998,SAT-38970,PQC KEX TLS: Dashboard,New,Sub-task,,high
+SAT-35690,SAT-38999,SAT-38970,PQC KEX TLS: HTTP Proxy,New,Sub-task,,high
+SAT-35690,SAT-39000,SAT-38970,PQC KEX TLS: Leapp integration,New,Sub-task,,high
+SAT-35690,SAT-39001,SAT-38970,PQC KEX TLS: Logging,New,Sub-task,,high
+SAT-35690,SAT-39002,SAT-38970,PQC KEX TLS: Notifications,New,Sub-task,,high
+SAT-35690,SAT-39003,SAT-38970,PQC KEX TLS: Parameters,New,Sub-task,,high
+SAT-35690,SAT-39004,SAT-38970,PQC KEX TLS: Remote Execution,Closed,Sub-task,Lukas Hellebrandt,high
+SAT-35690,SAT-39005,SAT-38970,PQC KEX TLS: SCAP Plugin,New,Sub-task,,high
+SAT-35690,SAT-39006,SAT-38970,PQC KEX TLS: Settings,New,Sub-task,,high
+SAT-35690,SAT-39007,SAT-38970,PQC KEX TLS: Templates Plugin,New,Sub-task,,high
+SAT-35690,SAT-39008,SAT-38970,PQC KEX TLS: katello-tracer,New,Sub-task,,high
+SAT-35690,SAT-39009,SAT-38970,PQC KEX TLS: Ansible - Configuration Management,New,Sub-task,,high
+SAT-35690,SAT-39010,SAT-38970,PQC KEX TLS: Audit Log,New,Sub-task,,high
+SAT-35690,SAT-39011,SAT-38970,PQC KEX TLS: Branding,New,Sub-task,,high
+SAT-35690,SAT-39012,SAT-38970,PQC KEX TLS: Foreman Proxy,New,Sub-task,,high
+SAT-35690,SAT-39013,SAT-38970,PQC KEX TLS: Hooks and Webhooks,New,Sub-task,,high
+SAT-35690,SAT-39014,SAT-38970,PQC KEX TLS: Localization and Internationalization,New,Sub-task,,high
+SAT-35690,SAT-39015,SAT-38970,PQC KEX TLS: Navigation,New,Sub-task,,high
+SAT-35690,SAT-39016,SAT-38970,PQC KEX TLS: Organizations and Locations,New,Sub-task,,high
+SAT-35690,SAT-39017,SAT-38970,PQC KEX TLS: Puppet,New,Sub-task,,high
+SAT-35690,SAT-39018,SAT-38970,PQC KEX TLS: Reporting,New,Sub-task,,high
+SAT-35690,SAT-39019,SAT-38970,PQC KEX TLS: Search,New,Sub-task,,high
+SAT-35690,SAT-39020,SAT-38970,PQC KEX TLS: Tasks Plugin,New,Sub-task,,high
+SAT-35690,SAT-39021,SAT-38970,PQC KEX TLS: Users and Roles,New,Sub-task,,high
+SAT-35690,SAT-39022,SAT-38970,PQC KEX TLS: Ansible Collection,New,Sub-task,,high
+SAT-35690,SAT-39023,SAT-38970,PQC KEX TLS: Bootdisk Plugin,New,Sub-task,,high
+SAT-35690,SAT-39024,SAT-38970,PQC KEX TLS: Compute Resources - Azure,New,Sub-task,,high
+SAT-35690,SAT-39025,SAT-38970,PQC KEX TLS: Compute Resources - EC2,New,Sub-task,,high
+SAT-35690,SAT-39026,SAT-38970,PQC KEX TLS: Compute Resources - OpenStack,New,Sub-task,,high
+SAT-35690,SAT-39027,SAT-38970,PQC KEX TLS: Compute Resources - VMWare,New,Sub-task,,high
+SAT-35690,SAT-39028,SAT-38970,PQC KEX TLS: Conversions appliance,New,Sub-task,,high
+SAT-35690,SAT-39029,SAT-38970,PQC KEX TLS: Discovery Plugin,New,Sub-task,,high
+SAT-35690,SAT-39030,SAT-38970,PQC KEX TLS: Infoblox integration,New,Sub-task,,high
+SAT-35690,SAT-39031,SAT-38970,PQC KEX TLS: Networking,New,Sub-task,,high
+SAT-35690,SAT-39032,SAT-38970,PQC KEX TLS: Provisioning,New,Sub-task,,high
+SAT-35690,SAT-39033,SAT-38970,PQC KEX TLS: Satellite Clone,New,Sub-task,,high
+SAT-35690,SAT-39034,SAT-38970,PQC KEX TLS: Upgrades,New,Sub-task,,high
+SAT-35690,SAT-39035,SAT-38970,PQC KEX TLS: Backup and Restore,New,Sub-task,,high
+SAT-35690,SAT-39036,SAT-38970,PQC KEX TLS: Compute Resources,New,Sub-task,,high
+SAT-35690,SAT-39037,SAT-38970,PQC KEX TLS: Compute Resources - CNV,New,Sub-task,,high
+SAT-35690,SAT-39038,SAT-38970,PQC KEX TLS: Compute Resources - GCE,New,Sub-task,,high
+SAT-35690,SAT-39039,SAT-38970,PQC KEX TLS: Compute Resources - RHEV,New,Sub-task,,high
+SAT-35690,SAT-39040,SAT-38970,PQC KEX TLS: Compute Resources - libvirt,New,Sub-task,,high
+SAT-35690,SAT-39041,SAT-38970,PQC KEX TLS: Discovery Image,New,Sub-task,,high
+SAT-35690,SAT-39042,SAT-38970,PQC KEX TLS: Hammer,New,Sub-task,,high
+SAT-35690,SAT-39043,SAT-38970,PQC KEX TLS: Installation,New,Sub-task,,high
+SAT-35690,SAT-39044,SAT-38970,PQC KEX TLS: Power and BMC,New,Sub-task,,high
+SAT-35690,SAT-39045,SAT-38970,PQC KEX TLS: Provisioning Templates,New,Sub-task,,high
+SAT-35690,SAT-39046,SAT-38970,PQC KEX TLS: Satellite Maintain,New,Sub-task,,high
+SAT-35690,SAT-42208,SAT-35690,[SPIKE] Analyze cryptographic packages used by Satellite,Closed,Task,Lukas Hellebrandt,medium
+SAT-35690,SAT-42784,SAT-35690,Satellite runs on RHEL 10,Refinement,Outcome,Jake Callahan,medium
+SAT-35690,SAT-43229,SAT-35690,HTTPS secure provisioning for bare metal and KVM virtualization,Refinement,Feature,Partha Aji,medium
+SAT-35690,SAT-43328,SAT-35690,Satellite Secure Provisioning,New,Outcome,,medium
+SAT-35690,SAT-43331,SAT-35690,Execute remote commands on hosts using PQC-enabled SSH,Refinement,Feature,Partha Aji,high
+SAT-35690,SAT-43393,SAT-36257,Support custom certificates with PQC,New,Epic,Ewoud Kohl van Wijngaarden,high
+SAT-35690,SAT-43394,SAT-36257,Client registration and content consumption with PQC-based certificates,New,Epic,Partha Aji,high
+SAT-35690,SAT-43398,SAT-35690,Investigate solutions for Foreman-Candlepin communication in PQC-enabled environments,New,Task,,high
+SAT-36257,SAT-19326,SAT-36257,TLS 1.3 Support for Satellite 6 (Candlepin listener),New,Feature Request,,high
+SAT-36257,SAT-42162,SAT-19326,[SPIKE] Investigate TLS 1.3 support,Closed,Spike,,medium
